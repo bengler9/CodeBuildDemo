@@ -5,7 +5,8 @@ import requests
 
 def lambda_handler(event, context):
     # TODO implement
-    # fix bug in publish version
+    # fix bug in publish bump
+    # another test
     print(event)
     URL = "http://maps.googleapis.com/maps/api/geocode/json"
     location = event['landmark']
